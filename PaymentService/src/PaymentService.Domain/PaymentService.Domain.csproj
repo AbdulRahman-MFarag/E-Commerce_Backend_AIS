@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Deliberately zero NuGet dependencies. The Domain layer in Clean
+       Architecture should not depend on EF Core, ASP.NET, or anything
+       else framework-specific — it's pure business rules. -->
+
+</Project>
